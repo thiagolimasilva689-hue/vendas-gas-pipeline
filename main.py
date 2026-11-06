@@ -1,5 +1,5 @@
-from modulos.leitura import ler_csv
-from modulos.processamento import  calcular_faturamento, gerar_relatorio
+from gas_pipeline.modulos.leitura import ler_csv
+from gas_pipeline.modulos.processamento import  calcular_faturamento, gerar_relatorio
 
 if __name__ == "__main__":
     caminho = r'C:\Users\Thiago\OneDrive\Desktop\teiu\projeto_gas\dados_vendas.csv'
